@@ -32,3 +32,9 @@ variable "lambda_function_arn" {
   description = "ARN of the Lambda function"
   type        = string
 }
+
+variable "stage_name" {
+  description = "Name of the deployment stage"
+  type        = string
+  default     = "prod"
+}
