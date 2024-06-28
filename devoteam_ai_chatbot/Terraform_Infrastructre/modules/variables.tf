@@ -30,18 +30,3 @@ variable "lambda_role_name" {
   description = "Name of the IAM role for Lambda"
   type        = string
 }
-
-variable "lex_role_name" {
-  description = "Name of the IAM role for Lex"
-  type        = string
-}
-
-variable "lex_bot_name" {
-  description = "Name of the Lex bot"
-  type        = string
-}
-
-variable "lex_bot_alias_name" {
-  description = "Name of the Lex bot alias"
-  type        = string
-}
